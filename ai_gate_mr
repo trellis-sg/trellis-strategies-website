@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>Protected Page</title></head>
+<body>
+<script>
+  var password = prompt("Enter password:");
+  if(password !== "IAMACCREDITEDINVESTOR") {
+    document.write("Access Denied");
+  } else {
+    window.location.href = "Noviscient%20Multi%20Strategy%20Fund%20Introduction.pdf";
+  }
+</script>
+</body>
+</html>
