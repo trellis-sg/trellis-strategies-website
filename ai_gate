@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>Protected Page</title></head>
+<body>
+<script>
+  var password = prompt("Enter password:");
+  if(password !== "IAMACCREDITEDINVESTOR") {
+    document.write("Access Denied");
+  } else {
+    window.location.href = "Vulpes%20Tail%20Risk%20Strategy%20202506.pdf";
+  }
+</script>
+</body>
+</html>
